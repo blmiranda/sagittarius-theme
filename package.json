@@ -1,6 +1,21 @@
 {
-  "dependencies": {
-    "generator-code": "^1.7.7",
-    "yo": "^4.3.1"
+  "name": "sagittarius-theme",
+  "displayName": "Sagittarius Theme",
+  "description": "VSCode theme.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sagittarius Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Sagittarius Theme-color-theme.json"
+      }
+    ]
   }
 }
